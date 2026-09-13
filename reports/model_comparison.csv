@@ -1,0 +1,43 @@
+Model,Target,Horizon_Days,MAE,RMSE,MAPE,Forecast_Accuracy_Pct,Mean_Forecast,Actual_Mean
+Naive Persistence,Children in HHS Care,3,35.0,35.04,1.54,98.46,2234.3,2269.3
+Naive Persistence,Children in HHS Care,7,33.86,34.46,1.49,98.51,2242.1,2276.0
+Naive Persistence,Children in HHS Care,14,34.36,36.27,1.51,98.49,2242.1,2276.5
+Moving Average,Children in HHS Care,3,27.19,27.33,1.2,98.8,2242.1,2269.3
+Moving Average,Children in HHS Care,7,33.86,34.5,1.49,98.51,2242.1,2276.0
+Moving Average,Children in HHS Care,14,34.36,34.98,1.51,98.49,2242.1,2276.5
+ARIMA,Children in HHS Care,3,0.88,1.08,0.04,99.96,2269.1,2269.3
+ARIMA,Children in HHS Care,7,5.52,7.31,0.24,99.76,2270.7,2276.0
+ARIMA,Children in HHS Care,14,5.95,7.67,0.26,99.74,2271.5,2276.5
+SARIMA,Children in HHS Care,3,1.25,1.37,0.06,99.94,2270.0,2269.3
+SARIMA,Children in HHS Care,7,3.54,5.3,0.16,99.84,2279.3,2276.0
+SARIMA,Children in HHS Care,14,14.6,20.36,0.64,99.36,2291.0,2276.5
+Exponential Smoothing,Children in HHS Care,3,56.62,65.21,2.49,97.51,2325.9,2269.3
+Exponential Smoothing,Children in HHS Care,7,90.43,97.42,3.97,96.03,2366.4,2276.0
+Exponential Smoothing,Children in HHS Care,14,157.27,176.08,6.91,93.09,2433.8,2276.5
+Random Forest,Children in HHS Care,3,7.98,9.77,0.35,99.65,2261.4,2269.3
+Random Forest,Children in HHS Care,7,9.08,10.52,0.4,99.6,2269.8,2276.0
+Random Forest,Children in HHS Care,14,8.79,10.34,0.39,99.61,2270.0,2276.5
+Gradient Boosting,Children in HHS Care,3,2.79,3.2,0.12,99.88,2271.0,2269.3
+Gradient Boosting,Children in HHS Care,7,5.13,6.22,0.23,99.77,2278.4,2276.0
+Gradient Boosting,Children in HHS Care,14,5.8,6.92,0.25,99.75,2279.2,2276.5
+Naive Persistence,Children discharged from HHS Care,3,7.0,7.19,45.04,54.96,8.3,15.3
+Naive Persistence,Children discharged from HHS Care,7,5.14,5.53,40.13,59.87,8.6,12.9
+Naive Persistence,Children discharged from HHS Care,14,3.79,4.46,33.03,66.97,8.6,11.1
+Moving Average,Children discharged from HHS Care,3,6.76,7.1,42.94,57.06,8.6,15.3
+Moving Average,Children discharged from HHS Care,7,5.02,5.82,36.8,63.2,8.6,12.9
+Moving Average,Children discharged from HHS Care,14,3.4,4.38,27.5,72.5,8.6,11.1
+ARIMA,Children discharged from HHS Care,3,4.26,4.68,26.5,73.5,11.1,15.3
+ARIMA,Children discharged from HHS Care,7,3.55,4.29,29.16,70.84,10.8,12.9
+ARIMA,Children discharged from HHS Care,14,2.82,3.46,27.46,72.54,10.7,11.1
+SARIMA,Children discharged from HHS Care,3,5.3,5.33,34.82,65.18,10.0,15.3
+SARIMA,Children discharged from HHS Care,7,4.44,4.62,34.73,65.27,9.0,12.9
+SARIMA,Children discharged from HHS Care,14,3.19,3.74,28.24,71.76,8.7,11.1
+Exponential Smoothing,Children discharged from HHS Care,3,7.01,7.01,46.66,53.34,8.3,15.3
+Exponential Smoothing,Children discharged from HHS Care,7,5.82,6.13,45.24,54.76,7.4,12.9
+Exponential Smoothing,Children discharged from HHS Care,14,4.9,5.34,44.57,55.43,6.8,11.1
+Random Forest,Children discharged from HHS Care,3,4.15,4.65,25.77,74.23,11.2,15.3
+Random Forest,Children discharged from HHS Care,7,2.78,3.41,23.69,76.31,11.8,12.9
+Random Forest,Children discharged from HHS Care,14,1.98,2.68,18.92,81.08,10.7,11.1
+Gradient Boosting,Children discharged from HHS Care,3,3.28,4.12,19.56,80.44,12.0,15.3
+Gradient Boosting,Children discharged from HHS Care,7,3.0,3.69,28.17,71.83,12.8,12.9
+Gradient Boosting,Children discharged from HHS Care,14,2.49,3.35,26.65,73.35,12.0,11.1

@@ -1,0 +1,15 @@
+Model,Target,Forecast_Accuracy_Pct,Surge_Lead_Time_Days,Capacity_Breach_Probability_Pct,Forecast_Stability_Index,MAE_14Day,RMSE_14Day
+Naive Persistence,Children in HHS Care,98.49,3.0,0.0,0.0,34.36,36.27
+Moving Average,Children in HHS Care,98.49,3.0,0.0,0.0,34.36,34.98
+ARIMA,Children in HHS Care,99.74,3.0,0.0,0.0,5.95,7.67
+SARIMA,Children in HHS Care,99.36,0.0,0.0,0.0,14.6,20.36
+Exponential Smoothing,Children in HHS Care,93.09,4.0,0.0,0.0,157.27,176.08
+Random Forest,Children in HHS Care,99.61,0.0,0.0,0.0,8.79,10.34
+Gradient Boosting,Children in HHS Care,99.75,0.0,0.0,0.0,5.8,6.92
+Naive Persistence,Children discharged from HHS Care,66.97,3.0,0.0,0.0,3.79,4.46
+Moving Average,Children discharged from HHS Care,72.5,3.0,0.0,0.0,3.4,4.38
+ARIMA,Children discharged from HHS Care,72.54,3.0,0.0,0.0,2.82,3.46
+SARIMA,Children discharged from HHS Care,71.76,3.0,0.0,0.0,3.19,3.74
+Exponential Smoothing,Children discharged from HHS Care,55.43,3.0,0.0,0.0,4.9,5.34
+Random Forest,Children discharged from HHS Care,81.08,0.0,0.0,0.0,1.98,2.68
+Gradient Boosting,Children discharged from HHS Care,73.35,0.0,0.0,0.0,2.49,3.35
